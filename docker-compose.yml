@@ -3,7 +3,7 @@ services:
  web:
   build:
    context: .
-   dickerfile: Dockerfile
+   dockerfile: Dockerfile
   ports:
    - '80:80'
 
